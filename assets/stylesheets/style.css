@@ -89,8 +89,16 @@
 }
 
 .top-articles .title,
-.top-story .title {
+.top-story .title,
+#opinion .title,
+.latest-news .title {
     color: rgba(3,3,3,.4);
     text-transform: uppercase;
     font-size: 16px;
+}
+
+.avatar {
+    height: 63px;
+    width: 63px;
+    margin-right: 15px;
 }
