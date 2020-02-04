@@ -1,7 +1,6 @@
 .page-header, .main {
     max-width: 1310px;
-    width: 1310px;
-    background-color: red;
+    width: 100vw;
     margin: 0 auto;
 }
 
@@ -67,11 +66,20 @@
 .header-nav {
     font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif;
     font-weight: 700;
+    position: relative;
+    background-color: white;
+    border-bottom: 2px solid #d9d9d9;
 }
 
 .header-nav > .nav > .nav-item {
-    padding-right: 3px;
-    border-left-color: #d9d9d9; /* poner con media query */
+    padding: 10px;
+    border-right: 1px solid #d9d9d9; /* poner con media query */
+}
+
+.nav {
+    position: relative;
+    top: -5px;
+    background-color: white;
 }
 
 @media only screen and (max-width: 990px) {
