@@ -88,4 +88,9 @@
     }
 }
 
-
+.top-articles .title,
+.top-story .title {
+    color: rgba(3,3,3,.4);
+    text-transform: uppercase;
+    font-size: 16px;
+}
