@@ -91,7 +91,8 @@
 .top-articles .title,
 .top-story .title,
 #opinion .title,
-.latest-news .title {
+.latest-news .title,
+.more-stories .title {
     color: rgba(3,3,3,.4);
     text-transform: uppercase;
     font-size: 16px;
