@@ -1,0 +1,83 @@
+.page-header, .main {
+    max-width: 1310px;
+    width: 1310px;
+    background-color: red;
+    margin: 0 auto;
+}
+
+/* agregar con media query */
+
+.page-header > .container-fluid {
+    padding: 20px 10px 15px;
+}
+
+.page-header > .container-fluid {
+    background-color: red;
+}
+
+.top-header > .row {
+    color: white;
+    align-items: flex-end;
+}
+
+.page-header > .container > .row > h1 {
+    text-align: center;
+}
+
+#title-svg {
+    fill: white;
+}
+
+.upper-case {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 776px) {
+    .top-header > .row > date {
+        /* display: none; */
+    }
+}
+
+.top-header > .row > div:last-child {
+    text-align: right;
+}
+
+#singin:link {
+    color: black;
+}
+
+#singin:hover, #subscribe:hover {
+    text-decoration: none;
+}
+
+#subscribe {
+    background-color: white;
+    color: red;
+    border-radius: 1px;
+}
+
+#subscribe > svg {
+    fill: #f72210;
+    width: 8px;
+    height: 14px;
+    margin-left: 10px;
+}
+
+.header-nav {
+    font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.header-nav > .nav > .nav-item {
+    padding-right: 3px;
+    border-left-color: #d9d9d9; /* poner con media query */
+}
+
+@media only screen and (max-width: 990px) {
+    .header-nav > .nav {
+        display: none;
+    }
+}
+
+
