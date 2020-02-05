@@ -48,17 +48,17 @@
 }
 
 #singin:hover,
-#subscribe:hover {
+.subscribe-lk:hover {
   text-decoration: none;
 }
 
-#subscribe {
+.subscribe-lk {
   background-color: white;
   color: red;
   border-radius: 1px;
 }
 
-#subscribe > svg {
+.subscribe-lk > svg {
   fill: #f72210;
   width: 8px;
   height: 14px;
