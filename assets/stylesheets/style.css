@@ -135,7 +135,8 @@ span.logo {
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
-#in-the-magazine .title {
+#in-the-magazine .title,
+#editors-picks .title {
   text-transform: uppercase;
   text-align: center;
 }
