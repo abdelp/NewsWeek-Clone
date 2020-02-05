@@ -68,7 +68,7 @@ body {
   color: black;
 }
 
-#singin:hover,
+#signin:hover,
 .subscribe-lk:hover {
   text-decoration: none;
 }
@@ -90,6 +90,18 @@ body {
 
 #menu-icon {
     margin-left: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+    #menu-icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    #signin,
+    .subscribe-lk {
+        font-size: .7em;
+    }
 }
 
 .header-nav {
