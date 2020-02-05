@@ -1,5 +1,6 @@
 .page-header,
-.main {
+.main,
+.footer {
   max-width: 1310px;
   width: 100vw;
   margin: 0 auto;
@@ -139,4 +140,25 @@ span.logo {
 #editors-picks .title {
   text-transform: uppercase;
   text-align: center;
+}
+
+.top-footer > .row {
+    align-items: flex-end;
+}
+
+#ft-title-svg {
+  fill: red;
+  width: 236px;
+}
+
+.social-icon {
+    height: 24px;
+    width: 24px;
+    fill: rgb(102, 102, 102);
+    background: rgb(102, 102, 102); 
+}
+
+.editions .nav-item,
+.bottom-links .nav-item {
+    padding-right: 20px;
 }
