@@ -2,23 +2,39 @@ body {
   background-color: #f4f5f6;
 }
 
+/* .page-header {
+  position: fixed;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+} */
+
+/* .wrapper, */
 .page-header,
 .main,
 .footer {
-  max-width: 1310px;
   width: 100vw;
   margin: 0 auto;
   background-color: white;
+  max-width: 1310px;
 }
 
 /* agregar con media query */
 
+/* .wrapper > .top-header { */
 .page-header > .top-header {
   padding: 15px;
   background-color: red;
 }
 
+.main {
+  padding-top: 10px;
+}
+
 @media only screen and (min-width: 992px) {
+  /* .wrapper > .top-header { */
   .page-header > .top-header {
     padding: 20px 10px 25px;
   }
@@ -37,11 +53,10 @@ body {
   height: 20px;
 }
 
-
 @media only screen and (min-width: 992px) {
-    #title-svg {
-        height: 60px;
-    }
+  #title-svg {
+    height: 60px;
+  }
 }
 
 .upper-case {
@@ -61,7 +76,7 @@ body {
 
 #singin,
 .subscribe-lk {
-    font-size: .8em;
+  font-size: 0.8em;
 }
 
 #singin:link {
@@ -89,19 +104,19 @@ body {
 }
 
 #menu-icon {
-    margin-left: 3px;
+  margin-left: 3px;
 }
 
 @media only screen and (max-width: 768px) {
-    #menu-icon {
-        width: 25px;
-        height: 25px;
-    }
+  #menu-icon {
+    width: 25px;
+    height: 25px;
+  }
 
-    #signin,
-    .subscribe-lk {
-        font-size: .7em;
-    }
+  #signin,
+  .subscribe-lk {
+    font-size: 0.7em;
+  }
 }
 
 .header-nav {
@@ -113,60 +128,103 @@ body {
 }
 
 .header-nav > .nav {
-    padding: 10px 10px 0 0;
-    /* border: 1px solid black; */
-    min-width: 950px;
-    width: 95%;
+  padding: 10px 10px 0 0;
 
-    position: relative;
-    top: -10px;
-    background-color: white;
-    z-index: 1;
-    justify-content: end;
+  /* border: 1px solid black; */
+  min-width: 950px;
+  width: 95%;
+  position: relative;
+  top: -10px;
+  background-color: white;
+  z-index: 1;
+  justify-content: end;
 }
 
 .header-nav > .nav > .nav-item {
   padding: 0 5px;
   border-right: 1px solid #d9d9d9; /* poner con media query */
+  font-weight: bolder;
 }
 
 .header-nav > .nav > .nav-item:last-child {
-    position: relative;
-    padding-right: 25px;
-    border-right: none;
+  position: relative;
+  padding-right: 25px;
+  border-right: none;
 }
 
-.header-nav > .nav:after {
-    content: " ";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: white;
-    transform-origin: top left;
-    -ms-transform: skew(30deg, 0deg);
-    -webkit-transform: skew(30deg, 0deg);
-    transform: skew(30deg, 0deg);
+.header-nav > .nav::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: white;
+  transform-origin: top left;
+  -ms-transform: skew(30deg, 0deg);
+  -webkit-transform: skew(30deg, 0deg);
+  transform: skew(30deg, 0deg);
 }
 
 .header-nav > .nav > .nav-item:last-child > svg {
-    position: absolute;
-    height: 20px;
+  position: absolute;
+  height: 20px;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-nav a:link {
+  color: black;
+}
+
+.header-nav a:hover {
+  color: red;
 }
 
 #search-input {
-    width: 60px;
-    border: none;
-    text-transform: capitalize;
+  width: 60px;
+  border: none;
+  text-transform: capitalize;
 }
 
 @media only screen and (max-width: 990px) {
   .header-nav > .nav {
     display: none;
   }
+}
+
+.card {
+  border: none;
+
+}
+
+.card-body {
+  padding: 0.5em;
+}
+
+.card-body a {
+  text-decoration-color: red;
+  position: relative;
+}
+
+.card > a {
+  text-decoration: none;
+}
+
+.card .tag {
+  position: relative;
+  bottom: 26px;
+  left: 0;
+  background-color: #f4f5f6;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  color: red;
+  font-weight: bold;
 }
 
 .top-articles .title,
