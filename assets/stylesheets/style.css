@@ -1,5 +1,6 @@
 body {
   background-color: #f4f5f6;
+  /* font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif; */
 }
 
 /* .page-header {
@@ -35,6 +36,16 @@ body {
 
 @media only screen and (min-width: 992px) {
   /* .wrapper > .top-header { */
+
+  .main main {
+    max-height: 1250px;
+    overflow: scroll;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+  }
+
+  .main main::-webkit-scrollbar { width: 0 !important }
+
   .page-header > .top-header {
     padding: 20px 10px 25px;
   }
@@ -175,7 +186,8 @@ body {
 
 .nav-item > a,
 .opinions h6 > a,
-#latest-news h6 > a {
+.more-stories h6 > a,
+#latest-news h6 > a{
   text-decoration: none;
   color: black;
 }
@@ -186,6 +198,7 @@ body {
 
 .nav-item > a:hover,
 .opinions h6 > a:hover,
+.more-stories h6 > a:hover,
 #latest-news h6 > a:hover {
   color: red;
 }
@@ -246,11 +259,13 @@ body {
   border-bottom: 1px solid rgb(217, 217, 217);
 }
 
-.top-story-title > a {
+.top-story-title > a,
+#in-the-magazine .card-title > a {
   color: black;
 }
 
-.top-story-title > a:hover {
+.top-story-title > a:hover,
+#in-the-magazine .card-title > a:hover {
   text-decoration-color: red;
 }
 
@@ -292,11 +307,13 @@ body {
   padding: 0 3px;
 }
 
+.more-stories ul > li,
 #latest-news ul > li {
   padding: 10px 0;
   border-bottom: 1px solid rgb(217, 217, 217);
 }
 
+.more-stories ul > li > img,
 #latest-news > ul > li > img {
   margin-right: 10px;
   width: 135px;
@@ -361,14 +378,64 @@ span.logo {
   background: url(https://g.newsweek.com/www/images/icon-arrow-right.svg) center/contain no-repeat;
 }
 
+#in-the-magazine .title-container,
+#editors-picks .title-container {
+  justify-content: center;
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
 #in-the-magazine .title,
 #editors-picks .title {
   text-transform: uppercase;
   text-align: center;
 }
 
+.card-body > .category {
+  margin: 10px 0;
+}
+
+.card-body > .category > span {
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.card-body > .category > span:first-child {
+  background-color: red;
+  color: white;
+}
+
+.card-body > .category > span:last-child {
+  color: red;
+}
+
+
+
+
+
+.footer {
+  padding: 35px;
+}
+
+.top-footer {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+
 .top-footer > .row {
   align-items: flex-end;
+}
+
+.top-footer > .row > div {
+  display: flex;
+  align-items: baseline;
+}
+
+.top-footer .nav-item {
+  margin: 0 2px;
 }
 
 #ft-title-svg {
@@ -379,11 +446,15 @@ span.logo {
 .social-icon {
   height: 24px;
   width: 24px;
-  fill: rgb(102, 102, 102);
-  background: rgb(102, 102, 102);
+}
+
+.editions {
+  margin: 5px 0;
 }
 
 .editions .nav-item,
 .bottom-links .nav-item {
-  padding-right: 20px;
+  padding: 0 5px;
+  color: rgb(102, 102, 102);
+  border-right: 1px solid #d9d9d9;
 }
