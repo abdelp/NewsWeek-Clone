@@ -173,16 +173,18 @@ body {
   height: 20px;
 }
 
-.header-nav a {
+.nav-item > a,
+.opinions h6 > a {
   text-decoration: none;
   color: black;
 }
 
-.header-nav a:link {
+.nav-item > a:link {
   color: black;
 }
 
-.header-nav a:hover {
+.nav-item > a:hover,
+.opinions h6 > a:hover {
   color: red;
 }
 
@@ -200,11 +202,10 @@ body {
 
 .card {
   border: none;
-
 }
 
 .card-body {
-  padding: 0.5em;
+  padding: 0.1em;
 }
 
 .card-body a {
@@ -235,6 +236,24 @@ body {
   color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
   font-size: 16px;
+}
+
+.top-story .row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+.top-story-title > a {
+  color: black;
+}
+
+.top-story-title > a:hover {
+  text-decoration-color: red;
+}
+
+.opinions ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .avatar {
