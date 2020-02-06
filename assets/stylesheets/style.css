@@ -438,6 +438,10 @@ span.logo {
   left: 30px;
 }
 
+.subscribe > .row > div:last-child {
+  margin-top: 7px;
+}
+
 .subscribe > h5,
 .newsletter > h5 {
   color: red;
@@ -462,6 +466,7 @@ span.logo {
 
 .newsletter > .row > div:last-child {
   padding: 37px;
+  max-height: 265px;
 }
 
 .footer {
