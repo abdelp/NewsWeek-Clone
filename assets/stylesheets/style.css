@@ -174,7 +174,8 @@ body {
 }
 
 .nav-item > a,
-.opinions h6 > a {
+.opinions h6 > a,
+#latest-news h6 > a {
   text-decoration: none;
   color: black;
 }
@@ -184,7 +185,8 @@ body {
 }
 
 .nav-item > a:hover,
-.opinions h6 > a:hover {
+.opinions h6 > a:hover,
+#latest-news h6 > a:hover {
   color: red;
 }
 
@@ -288,6 +290,17 @@ body {
   background-color: rgb(194, 212, 215);
   color: black;
   padding: 0 3px;
+}
+
+#latest-news ul > li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(217, 217, 217);
+}
+
+#latest-news > ul > li > img {
+  margin-right: 10px;
+  width: 135px;
+  height: 90px;
 }
 
 .signup-block {
