@@ -413,7 +413,56 @@ span.logo {
 
 
 
+.subscribe, .newsletter {
+  padding: 35px;
+}
 
+.subscribe > .row {
+  background-color: #f4f5f6;
+  padding: 20px;
+}
+
+.portraits-container {
+  position: relative;
+}
+
+.portraits-container > div {
+  width:200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.portraits-container > div > img:last-child {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.subscribe > h5,
+.newsletter > h5 {
+  color: red;
+  text-transform: uppercase;
+}
+
+.subscribe .subscribe-lk,
+.newsletter .subscribe-lk {
+  color: white;
+  background-color: red;
+  text-transform: uppercase;
+}
+
+.subscribe .subscribe-lk > svg,
+.newsletter .subscribe-lk > svg {
+  fill: white;
+}
+
+.newsletter > .row > div:first-child {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
+}
+
+.newsletter > .row > div:last-child {
+  padding: 37px;
+}
 
 .footer {
   padding: 35px;
