@@ -1,5 +1,6 @@
 body {
   background-color: #f4f5f6;
+
   /* font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif; */
 }
 
@@ -44,7 +45,7 @@ body {
     -ms-overflow-style: none;
   }
 
-  .main main::-webkit-scrollbar { width: 0 !important }
+  .main main::-webkit-scrollbar { width: 0 !important; }
 
   .page-header > .top-header {
     padding: 20px 10px 25px;
@@ -187,7 +188,7 @@ body {
 .nav-item > a,
 .opinions h6 > a,
 .more-stories h6 > a,
-#latest-news h6 > a{
+#latest-news h6 > a {
   text-decoration: none;
   color: black;
 }
@@ -411,9 +412,28 @@ span.logo {
   color: red;
 }
 
+.topic-item > h5 {
+  color: red;
+  text-transform: uppercase;
+}
 
+.topic-item ul > li {
+  border-bottom: 1px solid rgb(217, 217, 217);
+  padding: 10px 0;
+}
 
-.subscribe, .newsletter {
+.topic-item ul > li:first-child {
+  padding-top: 0;
+}
+
+.topic-item ul li > img {
+  margin-right: 10px;
+  width: 135px;
+  height: 90px;
+}
+
+.subscribe,
+.newsletter {
   padding: 35px;
 }
 
@@ -427,7 +447,7 @@ span.logo {
 }
 
 .portraits-container > div {
-  width:200px;
+  width: 200px;
   position: relative;
   margin: 0 auto;
 }
@@ -462,6 +482,7 @@ span.logo {
 
 .newsletter > .row > div:first-child {
   /* min-height: 10em; */
+
   /* height: 400px; */
   min-height: 45px;
   height: 265px;
@@ -481,7 +502,6 @@ span.logo {
   padding: 10px 0;
   border-bottom: 1px solid rgb(217, 217, 217);
 }
-
 
 .top-footer > .row {
   align-items: flex-end;
