@@ -234,7 +234,7 @@ body {
   text-decoration: none;
 }
 
-.card .tag {
+.top-articles .card .tag {
   position: relative;
   bottom: 26px;
   left: 0;
@@ -380,7 +380,8 @@ span.logo {
 }
 
 #in-the-magazine .title-container,
-#editors-picks .title-container {
+#editors-picks .title-container,
+#featured-slideshows .title-container {
   justify-content: center;
   border-bottom: 1px solid rgb(217, 217, 217);
   padding-bottom: 5px;
@@ -388,7 +389,8 @@ span.logo {
 }
 
 #in-the-magazine .title,
-#editors-picks .title {
+#editors-picks .title,
+#featured-slideshows .title {
   text-transform: uppercase;
   text-align: center;
 }
@@ -412,6 +414,31 @@ span.logo {
   color: red;
 }
 
+
+
+
+#featured-slideshows a {
+  display: block;
+  position: relative;
+}
+
+#featured-slideshows .tag {
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  position: absolute;
+  left: 15px;
+  background-color: #f4f5f6;
+  display: block;
+  width: 70px;
+  height: 52px;
+  bottom: 0;
+  left: 0;
+}
+
+.topic-item {
+  border-bottom: 1px solid rgb(217, 217, 217);
+  margin-top: 5px;
+}
+
 .topic-item > h5 {
   color: red;
   text-transform: uppercase;
@@ -420,6 +447,10 @@ span.logo {
 .topic-item ul > li {
   border-bottom: 1px solid rgb(217, 217, 217);
   padding: 10px 0;
+}
+
+.topic-item ul > li:last-child {
+  border-bottom: none;
 }
 
 .topic-item ul > li:first-child {
