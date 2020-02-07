@@ -38,7 +38,7 @@ body {
   /* .wrapper > .top-header { */
 
   .main main {
-    max-height: 1250px;
+    max-height: 1590px;
     overflow: scroll;
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;
@@ -461,6 +461,10 @@ span.logo {
 }
 
 .newsletter > .row > div:first-child {
+  /* min-height: 10em; */
+  /* height: 400px; */
+  min-height: 45px;
+  height: 265px;
   background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) center center / cover no-repeat;
 }
 
