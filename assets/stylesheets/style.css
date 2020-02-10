@@ -78,7 +78,6 @@ body {
 }
 
 .subscribe-lk {
-  background-color: white;
   color: red;
   border-radius: 1px;
   padding: 6px 3px;
@@ -97,10 +96,6 @@ body {
   vertical-align: baseline;
 }
 
-#menu-icon {
-  margin-left: 3px;
-}
-
 @media only screen and (max-width: 768px) {
   #menu-icon {
     width: 25px;
@@ -117,34 +112,19 @@ body {
   font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif;
   font-weight: 700;
   position: relative;
-  background-color: white;
-  border-bottom: 2px solid #d9d9d9;
 }
 
 .header-nav > .nav {
   padding: 10px 10px 0 0;
-  min-width: 950px;
-  width: 95%;
+  min-width: 1019px;
+  width: 97%;
   position: relative;
   top: -10px;
-  background-color: white;
   z-index: 1;
   justify-content: end;
 }
 
-.editions .nav-item,
-.bottom-links .nav-item {
-  padding: 0 5px;
-  color: rgb(102, 102, 102);
-}
-
-.top-footer .nav-item {
-  margin: 0 2px;
-}
-
 .header-nav > .nav > .nav-item {
-  padding: 0 5px;
-  border-right: 1px solid #d9d9d9; /* poner con media query */
   font-weight: bolder;
 }
 
@@ -171,10 +151,7 @@ body {
 }
 
 .subscribe .subscribe-lk > svg,
-.newsletter .subscribe-lk > svg {
-  fill: white;
-}
-
+.newsletter .subscribe-lk > svg,
 .signup-block > .subscribe-lk > svg {
   fill: white;
 }
@@ -251,18 +228,6 @@ body {
   text-decoration-color: red;
 }
 
-.more-stories ul > li {
-  padding: 10px 0;
-}
-
-.topic-item ul > li {
-  padding: 10px 0;
-}
-
-.opinions ul li {
-  padding: 10px 0;
-}
-
 .topic-item ul > li:last-child {
   border-bottom: none;
 }
@@ -271,14 +236,9 @@ body {
   padding-top: 0;
 }
 
-#latest-news ul > li {
-  padding: 10px 0;
-}
-
 #search-input {
   width: 60px;
   border: none;
-  text-transform: capitalize;
 }
 
 @media only screen and (max-width: 990px) {
