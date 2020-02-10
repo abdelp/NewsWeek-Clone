@@ -1,5 +1,6 @@
 body {
   background-color: #f4f5f6;
+  min-width: 320px;
 }
 
 .page-header,
