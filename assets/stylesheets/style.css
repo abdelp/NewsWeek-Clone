@@ -1,5 +1,4 @@
 body {
-  background-color: #f4f5f6;
   min-width: 320px;
 }
 
@@ -8,7 +7,6 @@ body {
 .footer {
   width: 100vw;
   margin: 0 auto;
-  background-color: white;
   max-width: 1310px;
 }
 
@@ -23,7 +21,6 @@ body {
 
 .main h2.title {
   color: rgba(3, 3, 3, 0.4);
-  text-transform: uppercase;
   font-size: 16px;
 }
 
@@ -59,11 +56,6 @@ body {
   #title-svg {
     height: 60px;
   }
-}
-
-.upper-case {
-  text-transform: uppercase;
-  font-weight: 700;
 }
 
 .portraits-container > div {
@@ -153,7 +145,6 @@ body {
 .bottom-links .nav-item {
   padding: 0 5px;
   color: rgb(102, 102, 102);
-  border-right: 1px solid #d9d9d9;
 }
 
 .top-footer .nav-item {
@@ -271,17 +262,14 @@ body {
 
 .more-stories ul > li {
   padding: 10px 0;
-  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .topic-item ul > li {
-  border-bottom: 1px solid rgb(217, 217, 217);
   padding: 10px 0;
 }
 
 .opinions ul li {
   padding: 10px 0;
-  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .topic-item ul > li:last-child {
@@ -294,7 +282,6 @@ body {
 
 #latest-news ul > li {
   padding: 10px 0;
-  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 #search-input {
@@ -353,7 +340,6 @@ body {
 
 .top-story .row {
   padding-bottom: 10px;
-  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 .avatar {
@@ -480,16 +466,8 @@ span.logo {
 #editors-picks .title-container,
 #featured-slideshows .title-container {
   justify-content: center;
-  border-bottom: 1px solid rgb(217, 217, 217);
   padding-bottom: 5px;
   margin-bottom: 10px;
-}
-
-#in-the-magazine .title,
-#editors-picks .title,
-#featured-slideshows .title {
-  text-transform: uppercase;
-  text-align: center;
 }
 
 .card-body > .category {
@@ -530,12 +508,7 @@ span.logo {
   margin-bottom: 15px;
 }
 
-#featured-slideshows {
-  border-bottom: 1px solid rgb(217, 217, 217);
-}
-
 .topic-item {
-  border-bottom: 1px solid rgb(217, 217, 217);
   margin-top: 5px;
 }
 
@@ -563,13 +536,8 @@ span.logo {
   max-height: 265px;
 }
 
-.footer {
-  padding: 35px;
-}
-
 .top-footer {
   padding: 10px 0;
-  border-bottom: 1px solid rgb(217, 217, 217);
 }
 
 #ft-title-svg {
