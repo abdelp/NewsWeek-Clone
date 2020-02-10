@@ -55,19 +55,6 @@ body {
   margin: 0 auto;
 }
 
-.signup-block > div {
-  display: flex;
-}
-
-.top-footer > .row > div {
-  display: flex;
-  align-items: baseline;
-}
-
-.top-header > .row > div:last-child {
-  text-align: right;
-}
-
 #singin,
 .subscribe-lk {
   font-size: 0.8em;
@@ -112,6 +99,7 @@ body {
   font-family: 'Roboto Condesed', Arial, Helvetica, sans-serif;
   font-weight: 700;
   position: relative;
+  overflow: initial;
 }
 
 .header-nav > .nav {
@@ -121,7 +109,6 @@ body {
   position: relative;
   top: -10px;
   z-index: 1;
-  justify-content: end;
 }
 
 .header-nav > .nav > .nav-item {
@@ -130,18 +117,16 @@ body {
 
 .header-nav > .nav > .nav-item:last-child {
   position: relative;
-  padding-right: 25px;
-  border-right: none;
 }
 
 .header-nav > .nav::after {
   content: " ";
   position: absolute;
   display: block;
-  width: 100%;
+  width: calc(100% + 10px);
   height: 100%;
   top: 0;
-  left: 0;
+  left: -10px;
   z-index: -1;
   background: white;
   transform-origin: top left;
@@ -162,7 +147,6 @@ body {
 }
 
 .more-stories li img {
-  display: block;
   float: left;
 }
 
@@ -289,27 +273,14 @@ body {
   font-weight: bold;
 }
 
-.top-story .row {
-  padding-bottom: 10px;
-}
-
 .avatar {
   height: 63px;
   width: 63px;
   margin-right: 15px;
 }
 
-.culture-travel {
-  background-color: #f4f5f6;
-  padding-top: 5px;
-}
-
 .culture-travel > h2 {
   font-weight: bold;
-}
-
-.culture-travel > .row {
-  padding-bottom: 15px;
 }
 
 .culture-travel .card .card-title {
@@ -376,11 +347,6 @@ span.logo {
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
 }
 
-.signup-block > .title-container {
-  display: flex;
-  align-items: center;
-}
-
 .subscribe > h5,
 .newsletter > h5 {
   color: red;
@@ -403,19 +369,12 @@ span.logo {
   margin-left: 10px;
 }
 
-#in-the-magazine .title-container,
-#editors-picks .title-container,
-#featured-slideshows .title-container {
-  justify-content: center;
-}
-
 .card-body > .category > span {
   font-weight: bold;
 }
 
 .card-body > .category > span:first-child {
   background-color: red;
-  color: white;
 }
 
 .card-body > .category > span:last-child {
@@ -424,10 +383,6 @@ span.logo {
 
 #in-the-magazine > .row:first-child .card-text {
   font-weight: bolder;
-}
-
-.top-footer > .row {
-  align-items: flex-end;
 }
 
 .portraits-container {
