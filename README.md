@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abdelp/using-bootstrap/0c006d043822298ef30d275f048d9f1b8bd22201/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abdelp/using-bootstrap/6df95add807535c27d0fd731b46f138375375c65/index.html)
 
 ## Author
 
