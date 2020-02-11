@@ -328,6 +328,7 @@ body {
 .subscribe .subscribe-lk {
   color: white;
   background-color: red;
+  max-width: 95px;
 }
 
 .signup-block > .subscribe-lk:hover {
@@ -337,6 +338,7 @@ body {
 #newsletter .subscribe-lk {
   color: white;
   background-color: red;
+  max-width: 95px;
 }
 
 span.logo {
